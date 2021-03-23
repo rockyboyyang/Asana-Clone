@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
       //sideBarOpener.innerHTML = "⇚";
     }
   });
-
+//
   // adds to favorites
   //FUTURE IMPLEMENTATIONS???
   // for (const favoriteButton of favoriteButtons) {
