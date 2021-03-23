@@ -5,7 +5,7 @@ const { DragDropContext, Draggable, Droppable } = window.ReactBeautifulDnd;
 const styled = window.styled
 
 let url;
-url = 'https://asana-clone-aa.herokuapp.com'
+url = 'https://fast-dawn-94532.herokuapp.com/'
 // url = 'http://localhost:8080'
 
 const TaskContainer = styled.div`
