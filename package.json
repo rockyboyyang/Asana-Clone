@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ColeRutledge/Asana-Clone.git"
+    "url": "git+https://github.com/rockyboyyang/Asana-Clone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ColeRutledge/Asana-Clone/issues"
+    "url": "https://github.com/rockyboyyang/Asana-Clone/issues"
   },
   "dependencies": {
     "3": "^2.1.0",
