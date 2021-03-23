@@ -3,7 +3,7 @@ const app = express()
 const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
-const { sessionSecret } = require('./config')
+const { sessionSecret, db } = require('./config')
 const { restoreUser } = require('./auth')
 const path = require('path')
 
@@ -16,6 +16,8 @@ const taskRouter = require('./routes/task')
 const dataRouter = require('./routes/data')
 
 // express configurations
+console.log(sessionSecret)
+
 app.set('view engine', 'pug')
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(morgan('dev'))
