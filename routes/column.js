@@ -10,7 +10,7 @@ const csrfProtection = csrf({ cookie: true });
 
 let url
 if (process.env.NODE_ENV === 'production') {
-  url = 'https://fast-dawn-94532.herokuapp.com/'
+  url = 'https://fast-dawn-94532.herokuapp.com'
 } else {
   url = 'http://localhost:8080'
 }
