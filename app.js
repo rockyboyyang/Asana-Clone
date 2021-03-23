@@ -16,7 +16,6 @@ const taskRouter = require('./routes/task')
 const dataRouter = require('./routes/data')
 
 // express configurations
-console.log(sessionSecret)
 
 app.set('view engine', 'pug')
 app.use(express.static(path.join(__dirname, 'public')))
