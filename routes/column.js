@@ -9,12 +9,12 @@ const router = express.Router();
 const csrfProtection = csrf({ cookie: true });
 
 let url
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'development') {
   url = 'https://fast-dawn-94532.herokuapp.com'
 } else {
   url = 'http://localhost:8080'
 }
-
+console.log(url)
 router.get('/teams/:teamId/projects/:projectId/columns', requireAuth, csrfProtection, asyncHandler(async (req, res) => {
   const teamId = parseInt(req.params.teamId, 10);
   const projectId = parseInt(req.params.projectId, 10);
